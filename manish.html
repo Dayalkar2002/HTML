@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`-, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> FORM 1</h1>
+    <form action="" id="form1" enctype="application/x-www-form-urlencoded">   
+       First Name : <input type="text" name="First Name" autofocus>
+       <br><br>
+       Last name : <input type="text" name="Last Name" placeholder="Last name" form="form2">
+       <br><br>
+       Profile photo : <input type="file" name="file" accept=".png">
+       <br><br>
+       Password : <input type="password" name="password" pattern="[A-Z]+">
+       <br><br>
+       Submit : <input type="submit" name="submit">
+    </form>
+    <br><br><br>
+
+    <h1> FORM 2</h1>
+    <form action="" id="form2" enctype="application/x-www-form-urlencoded">
+        father name : <input type="text" name="fathers Name" minlength="10">
+        <br><br>
+       mothers name : <input type="text" name="mothers Name" maxlength="8">
+       <br><br>
+       DOB : <input type="date" name="date" min="2023-01-01" max="2023-12-31">
+       <br><br>
+       city : <input type="text" name="city" value="mumbai" readonly>
+       <br><br>
+       Submit : <input type="submit" name="submit">
+    </form>
+</body>
+</html>
